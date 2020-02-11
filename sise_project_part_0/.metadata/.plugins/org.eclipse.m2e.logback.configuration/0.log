@@ -15711,3 +15711,4 @@
 2020-02-06 16:42:35,771 [Worker-82: Launching CLI] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sise-bank: pt.ulisboa.tecnico.learnjava.bank:sise-bank:1.0-SNAPSHOT with classifier null to /sise-bank/target/classes
 2020-02-06 16:42:35,771 [Worker-82: Launching CLI] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sise-bank: pt.ulisboa.tecnico.learnjava.bank:sise-bank:1.0-SNAPSHOT with classifier null to /sise-bank/target/classes
 2020-02-06 16:42:35,787 [Worker-82: Launching CLI] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/sise-bank: pt.ulisboa.tecnico.learnjava.bank:sise-bank:1.0-SNAPSHOT with classifier null to /sise-bank/target/classes
+2020-02-11 10:50:59,468 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.

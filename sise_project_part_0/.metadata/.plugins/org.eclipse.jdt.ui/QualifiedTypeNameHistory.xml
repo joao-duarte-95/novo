@@ -11,7 +11,6 @@
     <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.bank.services.Services"/>
     <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.sibs.cli.Friend"/>
     <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.sibs.cli.MBWAYsplitBillController"/>
-    <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.sibs.cli.MBWAY"/>
     <fullyQualifiedTypeName name="java.io.ByteArrayOutputStream"/>
     <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.sibs.sibs.GetOperationMethodTest"/>
     <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.sibs.domain.Deposited"/>
@@ -23,4 +22,7 @@
     <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.sibs.domain.Registered"/>
     <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.sibs.domain.Retry"/>
     <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.sibs.domain.Completed"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.sibs.cli.MBWAY"/>
+    <fullyQualifiedTypeName name="pt.ulisboa.tecnico.learnjava.bank.domain.IDCard"/>
 </qualifiedTypeNameHistroy>
