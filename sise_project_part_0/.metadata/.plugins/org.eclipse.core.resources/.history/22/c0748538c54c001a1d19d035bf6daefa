@@ -1,0 +1,25 @@
+package pt.ulisboa.tecnico.learnjava.sibs.CLI;
+
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
+
+import java.util.stream.Stream;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+public class associateMBWAYControllerTests {
+	
+	@Before
+	public void setUp(){
+	}
+	
+	@Test
+	public void successAssociateMBWAY() {
+		
+		
+	}
+
+}

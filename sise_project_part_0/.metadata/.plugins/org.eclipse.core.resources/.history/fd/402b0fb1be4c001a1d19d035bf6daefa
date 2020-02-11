@@ -1,0 +1,9 @@
+package pt.ulisboa.tecnico.learnjava.sibs.CLI;
+
+public class associateMBWAYControllerTests {
+
+	public associateMBWAYControllerTests() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

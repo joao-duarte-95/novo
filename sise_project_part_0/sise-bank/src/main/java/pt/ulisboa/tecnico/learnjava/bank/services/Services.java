@@ -42,5 +42,13 @@ public class Services {
 			return true;
 		}
 	}
+	public  boolean verifyPhoneNumber(String iban, String phoneNumber){
+		if(!getAccountByIban(iban).getClient().getPhoneNumber().equals(phoneNumber)) {
+			return false;
+		} else {
+			return true;
+		}
+	}
+	
 	
 }

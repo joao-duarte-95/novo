@@ -1,0 +1,19 @@
+package pt.ulisboa.tecnico.learnjava.sibs.CLI;
+
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
+
+import pt.ulisboa.tecnico.learnjava.bank.domain.Client;
+import pt.ulisboa.tecnico.learnjava.bank.services.Services;
+
+public class associateMBWAYControllerTests {
+
+	public associateMBWAYControllerTests() {
+		Services mockServices = mock(Services.class);
+		when(mockServices.accountValidation("source", "target")).thenReturn(true);
+		Client mockClient = mock(Client.class);
+		when(mo)
+		
+	}
+
+}

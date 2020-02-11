@@ -1,0 +1,51 @@
+package pt.ulisboa.tecnico.learnjava.sibs.CLI;
+
+import static org.junit.Assert.assertTrue;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import pt.ulisboa.tecnico.learnjava.bank.domain.Bank;
+import pt.ulisboa.tecnico.learnjava.bank.domain.Client;
+import pt.ulisboa.tecnico.learnjava.bank.domain.Bank.AccountType;
+import pt.ulisboa.tecnico.learnjava.bank.exceptions.AccountException;
+import pt.ulisboa.tecnico.learnjava.bank.exceptions.BankException;
+import pt.ulisboa.tecnico.learnjava.bank.exceptions.ClientException;
+import pt.ulisboa.tecnico.learnjava.bank.services.Services;
+import pt.ulisboa.tecnico.learnjava.sibs.cli.associateMBWAYController;
+import pt.ulisboa.tecnico.learnjava.sibs.domain.Sibs;
+
+public class associateMBWAYControllerTests {
+	private static final String ADDRESS = "Ave.";
+	private static final String PHONE_NUMBER = "987654321";
+	private static final String NIF = "123456789";
+	private static final String LAST_NAME = "Silva";
+	private static final String FIRST_NAME = "António";
+
+	private Sibs sibs;
+	private Bank sourceBank;
+	private Bank targetBank;
+	private Client sourceClient;
+	private Client targetClient;
+	private Services services;
+	private associateMBWAYController ac;
+	
+	@Before
+	public void setUp() throws BankException, AccountException, ClientException {
+		this.ac = new associateMBWAYController();
+		this.services = new Services();
+		this.sibs = new Sibs(100, services);
+		this.sourceBank = new Bank("CGD");
+		this.targetBank = new Bank("BPI");
+		this.sourceClient = new Client(this.sourceBank, FIRST_NAME, LAST_NAME, NIF, PHONE_NUMBER, ADDRESS, 33);
+		this.targetClient = new Client(this.targetBank, FIRST_NAME, LAST_NAME, NIF, PHONE_NUMBER, ADDRESS, 22);
+	}
+	
+	@Test
+	public void successAssociateMBWAY() {
+		this.sourceBank.createAccount(AccountType.CHECKING, client, amount, value)
+		assertTrue(services.verifyPhoneNumber(iban, phoneNumber));
+		
+	}
+
+}

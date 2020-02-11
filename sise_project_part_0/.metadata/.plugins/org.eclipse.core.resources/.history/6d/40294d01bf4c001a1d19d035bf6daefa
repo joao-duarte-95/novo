@@ -1,0 +1,13 @@
+package pt.ulisboa.tecnico.learnjava.sibs.CLI;
+
+import static org.mockito.Mockito.mock;
+
+import pt.ulisboa.tecnico.learnjava.bank.services.Services;
+
+public class associateMBWAYControllerTests {
+
+	public associateMBWAYControllerTests() {
+		Services mockServices1 = mock(Services.class);
+	}
+
+}
