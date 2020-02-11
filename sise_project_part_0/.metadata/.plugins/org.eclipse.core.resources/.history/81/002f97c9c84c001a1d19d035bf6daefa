@@ -44,6 +44,7 @@ public class ConstructorMethodTest {
 			fail();
 		} catch (AccountException e) {
 			
+			
 		}
 	}
 
